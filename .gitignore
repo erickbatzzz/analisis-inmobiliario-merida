@@ -1,0 +1,25 @@
+# --- R específicos ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+.RDataTmp
+*-Ex.R
+.Renviron
+
+# --- Datos y Outputs ---
+*.csv
+*.json
+*.xlsx
+*.rds
+*.RData
+*.zip
+*.png
+*.docx
+
+
+# --- Archivos de Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
