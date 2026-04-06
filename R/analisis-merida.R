@@ -36,7 +36,7 @@ cargar_datos <- function(datos) {
     
     if(file.exists(ruta)) {
       message(paste("cargando", archivo, "como objeto: ", nombre))
-      data <- read_rds(ruta)
+      data <- readRDS(ruta)
       assign(nombre, data, envir = .GlobalEnv)
     } else {
       print(paste("El archivo: ", archivo, "no existe"))
